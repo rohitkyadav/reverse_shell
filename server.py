@@ -46,6 +46,7 @@ def send_commands(conn):
 			client_response = str(conn.recv(1024), "utf-8")
 			print(client_response, end="")
 
+# Main Function
 def main():
 	socket_create()
 	socket_bind()
